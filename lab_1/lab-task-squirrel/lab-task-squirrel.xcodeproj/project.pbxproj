@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B753C772E5FEAFF007B0500 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B753C762E5FEAFF007B0500 /* PhotoViewController.swift */; };
 		CB57503A2929E62C00890962 /* TaskAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5750392929E62C00890962 /* TaskAnnotationView.swift */; };
 		CB602B9929247359006C6727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB602B9829247359006C6727 /* AppDelegate.swift */; };
 		CB602B9B29247359006C6727 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB602B9A29247359006C6727 /* SceneDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B753C762E5FEAFF007B0500 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		CB5750392929E62C00890962 /* TaskAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAnnotationView.swift; sourceTree = "<group>"; };
 		CB602B9529247359006C6727 /* lab-task-squirrel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lab-task-squirrel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB602B9829247359006C6727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				CB9D9ED5292488BC00F8F51B /* Task Detail */,
 				CB9D9ED2292483C400F8F51B /* Models */,
 				CB602B9E29247359006C6727 /* Main.storyboard */,
+				2B753C762E5FEAFF007B0500 /* PhotoViewController.swift */,
 				CB602BA32924735C006C6727 /* LaunchScreen.storyboard */,
 				CB602BA12924735C006C6727 /* Assets.xcassets */,
 				CB602BA62924735C006C6727 /* Info.plist */,
@@ -190,6 +193,7 @@
 				CB602B9D29247359006C6727 /* TaskListViewController.swift in Sources */,
 				CB9D9EDA292489E000F8F51B /* TaskComposeViewController.swift in Sources */,
 				CB57503A2929E62C00890962 /* TaskAnnotationView.swift in Sources */,
+				2B753C772E5FEAFF007B0500 /* PhotoViewController.swift in Sources */,
 				CB602B9929247359006C6727 /* AppDelegate.swift in Sources */,
 				CB602B9B29247359006C6727 /* SceneDelegate.swift in Sources */,
 				CB9D9ED1292483BC00F8F51B /* Task.swift in Sources */,
@@ -339,9 +343,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MA6H73S726;
+				DEVELOPMENT_TEAM = L33FUP589T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "lab-task-squirrel/Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo in order to add a photo to complete a task.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -352,7 +357,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.charliehieger.lab-task-squirrel";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuabalbi.lab-task-squirrel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -367,9 +372,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MA6H73S726;
+				DEVELOPMENT_TEAM = L33FUP589T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "lab-task-squirrel/Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo in order to add a photo to complete a task.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -380,7 +386,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.charliehieger.lab-task-squirrel";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joshuabalbi.lab-task-squirrel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
